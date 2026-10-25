@@ -77,6 +77,9 @@ Use the Dockerfile as the deployment artifact and configure the host with:
   this can be empty; do not allow arbitrary origins when serving a separate frontend.
 * An HTTPS-enabled host, a billing/usage limit for the Gemini project, and monitoring for
   `/health` and provider failures.
+* An authenticated gateway and request limits before exposing paid analysis endpoints to
+  untrusted users. This application does not currently provide user authentication or
+  distributed rate limiting.
 
 The sample `.env` files are for local development only. The repository does not contain
 production credentials.

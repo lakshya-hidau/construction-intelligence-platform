@@ -1,0 +1,242 @@
+[
+  {
+    "doc_id": "KB-001",
+    "title": "Hot-weather concreting — placing temperature and curing",
+    "standard_code": "IS 456:2000 Cl. 13.5",
+    "section": "Concrete placement in hot weather",
+    "tags": ["concrete", "heat", "curing", "summer", "temperature", "pour", "hot weather", "hydration", "slab"],
+    "text": "Concrete should not be placed when the ambient temperature exceeds 40 degrees Celsius unless special precautions are approved by the engineer. The temperature of concrete at the time of placement should generally not exceed 35 degrees Celsius. High ambient temperature accelerates hydration, reduces workability and increases the water demand, which lowers the 28-day strength and raises the risk of plastic shrinkage cracking. Recommended measures include pre-cooling aggregates by shading or water spraying, using chilled or ice water in the mix, avoiding pours between midday and late afternoon, using retarding admixtures, and prompt moist curing for not less than 10 days for ordinary Portland cement concrete. Slabs exposed to direct sun should be cured with wet gunny bags, ponding, or a curing compound, and should be protected from wind with temporary screens or fog spray to limit the evaporation rate."
+  },
+  {
+    "doc_id": "KB-002",
+    "title": "Cold-weather concreting — protection and strength gain",
+    "standard_code": "IS 456:2000 Cl. 13.5 / ACI 306R",
+    "section": "Concrete placement in cold weather",
+    "tags": ["concrete", "cold", "winter", "frost", "freezing", "curing", "strength gain"],
+    "text": "When the ambient temperature falls below about 5 degrees Celsius, concrete must be protected against freezing until it has attained a compressive strength of at least 5 megapascals. Below this temperature the hydration reaction slows dramatically, and a single freeze-thaw cycle while the concrete is still green can permanently destroy its strength and durability. Measures include heating the mixing water and aggregates, using accelerators, insulating formwork and covering freshly placed concrete with insulating blankets. Striking times for formwork and props must be extended because strength gain is slower. Records of concrete temperature at the time of placement should be maintained for every pour in cold weather."
+  },
+  {
+    "doc_id": "KB-003",
+    "title": "Rain and water-cement ratio during concrete placement",
+    "standard_code": "IS 456:2000 Cl. 10 / IS 10262:2019",
+    "section": "Concreting in rain",
+    "tags": ["concrete", "rain", "monsoon", "water cement ratio", "laitance", "pour", "wet"],
+    "text": "Concreting should not be carried out during heavy rain. Rain falling on an unprotected fresh concrete surface increases the local water-cement ratio, which produces a weak, dusty and laitance-rich surface layer with poor abrasion resistance. Any rain-damaged concrete should be removed before it sets and resprayed or re-finished under cover. Light drizzle may be tolerated where the surface can be effectively protected with tarpaulins or sheeting. All formwork should have drainage provided so that water does not pond against the set concrete. In monsoon conditions, the programme should include contingency days so that pour windows are not forced."
+  },
+  {
+    "doc_id": "KB-004",
+    "title": "Crack width acceptance limits in reinforced concrete",
+    "standard_code": "IS 456:2000 Cl. 35.3.2 / ACI 224.1R",
+    "section": "Acceptable crack widths",
+    "tags": ["crack", "width", "acceptance", "durability", "concrete", "crack width", "structural"],
+    "text": "Crack widths in reinforced concrete members exposed to moderate conditions should generally not exceed about 0.3 millimetres at the tension face. For members exposed to severe or very severe conditions, such as those subject to moisture, alternate wetting and drying, or a marine environment, the limit is tighter at about 0.2 millimetres. For mild and protected conditions a limit of about 0.4 millimetres may be acceptable. Crack width alone does not determine structural adequacy: the pattern, orientation, depth, branching and whether the crack is dormant or actively widening are all decisive. Cracks wider than about 3 millimetres, cracks parallel to the principal reinforcement in a flexural member, and diagonal cracks in the shear span all require structural investigation regardless of the nominal limit."
+  },
+  {
+    "doc_id": "KB-005",
+    "title": "Diagnosis of crack patterns in concrete structures",
+    "standard_code": "ACI 224.1R-07",
+    "section": "Crack pattern interpretation",
+    "tags": ["crack", "diagnosis", "pattern", "shear", "flexure", "settlement", "shrinkage", "structural", "diagonal"],
+    "text": "Crack orientation carries diagnostic information. Flexural cracks form perpendicular to the member axis in the zone of maximum bending moment and are expected in a reinforced member; they are controlled by reinforcement detailing. Diagonal cracks inclined at roughly 30 to 60 degrees to the member axis indicate shear distress and warrant immediate engineering assessment, since shear failure is brittle and occurs with little warning. Cracks that are wider at the top and follow the junction between a wall and a slab often indicate differential settlement. Map-like, interconnected cracking with no clear orientation is typical of restrained shrinkage, over-rich mixes, or alkali-silica reaction. Cracks that follow the line of reinforcement with rust staining indicate corrosion of the reinforcement and section loss. Longitudinal splitting along the reinforcement indicates bond failure or insufficient cover."
+  },
+  {
+    "doc_id": "KB-006",
+    "title": "Structural crack repair — epoxy injection and jacketing",
+    "standard_code": "EN 1504-5 / ACI 503R / ACI 440.2R",
+    "section": "Crack repair methods",
+    "tags": ["crack", "repair", "epoxy", "injection", "jacketing", "frp", "remediation", "restoration"],
+    "text": "Structural cracks that are dormant and affect capacity are typically repaired by pressure-injecting a low-viscosity structural epoxy. The crack faces are first cleaned using compressed air or water, injection ports are fixed at intervals along the crack, and the surface is sealed before injection proceeds from the lowest port upward. Active or leaking cracks should be treated with a flexible polyurethane or cementitious grout that accommodates movement. Where the section capacity itself is deficient, repair is by reinforced concrete jacketing, steel plate bonding, or externally bonded fibre-reinforced polymer (FRP) wrapping designed to ACI 440.2R. Non-structural cracks above 0.3 millimetres in plaster or render are routed out and filled with a flexible sealant before decoration."
+  },
+  {
+    "doc_id": "KB-007",
+    "title": "Fall protection — duty to provide and trigger heights",
+    "standard_code": "OSHA 1926.501 / IS 3786",
+    "section": "Fall protection at construction sites",
+    "tags": ["safety", "fall", "height", "harness", "guardrail", "edge", "ppe", "fall arrest", "leading edge"],
+    "text": "Employers must provide fall protection for each employee exposed to a fall of 1.8 metres or more to a lower level, and for employees working at any height above dangerous equipment. Guardrail systems must have a top rail between 1.0 and 1.1 metres above the walking surface, a mid-rail, and toe boards where material or tools may fall. Where guardrails are not practicable, a personal fall arrest system comprising a full-body harness, a shock-absorbing lanyard and a certified anchor point is required. Anchor points must be capable of supporting at least twice the potential impact load, and the free-fall distance must be limited so that the worker does not strike a lower level. Perimeter protection must be installed before work starts at a leading edge, not retrofitted after the slab is cast."
+  },
+  {
+    "doc_id": "KB-008",
+    "title": "Head protection — industrial safety helmets",
+    "standard_code": "IS 2925:1984 / OSHA 1926.100",
+    "section": "Helmet requirements",
+    "tags": ["safety", "helmet", "hard hat", "head protection", "ppe", "impact", "overhead"],
+    "text": "Every worker on a construction site, and every visitor, must wear an industrial safety helmet conforming to IS 2925 or an equivalent standard. Helmets protect against falling objects, against impact from swinging or protruding materials, and against limited electrical contact where the helmet is rated for it. The helmet must be in good condition with an intact shell, a functioning chinstrap and a headband that keeps a clearance of about 25 to 30 millimetres between the shell and the scalp to absorb impact. Helmets that have suffered a significant impact or show cracks, deep scratches or UV degradation must be replaced. Colour coding for helmets is a common site convention but does not substitute for inspection."
+  },
+  {
+    "doc_id": "KB-009",
+    "title": "High-visibility clothing for plant and traffic interfaces",
+    "standard_code": "IS 15809 / EN ISO 20471",
+    "section": "Hi-vis PPE",
+    "tags": ["safety", "vest", "hi-vis", "visibility", "plant", "struck by", "ppe", "reflective"],
+    "text": "High-visibility clothing is mandatory whenever workers are exposed to moving plant, public traffic, or lifting operations. EN ISO 20471 defines three classes based on the area of fluorescent background material and retro-reflective bands: Class 1 for low-risk environments, Class 2 for most construction work, and Class 3 for high-risk and night work where greater conspicuity is needed. Fluorescent yellow-green is the most visible in daylight and during twilight; retro-reflective silver bands remain visible in headlights. The garment must remain visible, meaning it must not be worn under other clothing and must be replaced once the fluorescent dye has faded or the bands are damaged."
+  },
+  {
+    "doc_id": "KB-010",
+    "title": "Scaffolding — erection, inspection and use",
+    "standard_code": "OSHA 1926.451 / IS 2750:1964",
+    "section": "Scaffold safety",
+    "tags": ["safety", "scaffold", "scaffolding", "inspection", "tag", "working platform", "guardrail", "ties"],
+    "text": "Every scaffold must be designed, erected and altered only by competent persons, and must carry a safe working load rated for the intended duty. Scaffold platforms must be fully planked and decked between the guardrails, with a gap of no more than about 25 millimetres between the platform and the work face. Guardrails, mid-rails and toe boards are required on all open sides and ends at any height above 1.8 metres. The scaffold must be tied to the structure at intervals specified by the manufacturer's design, and foundations must be sound and able to carry the loaded legs. A competent person must inspect the scaffold before first use, after any alteration, after adverse weather such as high wind or heavy rain, and at intervals not exceeding 7 days, with the inspection status recorded on a visible scaffold tag."
+  },
+  {
+    "doc_id": "KB-011",
+    "title": "Excavation — protection against collapse and water",
+    "standard_code": "OSHA 1926.651 / IS 3764:1992",
+    "section": "Excavation safety",
+    "tags": ["safety", "excavation", "trench", "shoring", "cave in", "soil", "collapse", "dewatering", "monsoon"],
+    "text": "Excavations must be inspected by a competent person before work begins and daily thereafter, and again after any rainfall or other event that could change the condition of the soil. Protection against cave-in is required for excavations deeper than 1.2 metres: this may take the form of sloping, benching, shoring, or a trench shield engineered for the soil type. Spoil, equipment and material must be kept at least 0.6 metres back from the excavation edge. Water accumulation must be controlled with pumps and sumps, and the excavation must be re-inspected after heavy rain because saturation drastically reduces cohesive strength. A safe means of access, such as a ladder, must be provided within 7.5 metres of travel for workers in an excavation. Underground utility lines must be located and marked before digging begins."
+  },
+  {
+    "doc_id": "KB-012",
+    "title": "Lifting operations — crane wind limits and exclusion zones",
+    "standard_code": "IS 807 / IS 3177 / OSHA 1926.1431",
+    "section": "Lifting and rigging",
+    "tags": ["safety", "lifting", "crane", "wind", "rigging", "sling", "load", "banksman", "exclusion"],
+    "text": "Lifting operations must be governed by a documented lift plan, with a qualified rigger and a designated signalperson. Cranes must not be operated when the wind speed, at the load, exceeds the manufacturer's rated maximum; typical tower crane limits are in the region of 60 to 72 kilometres per hour for the crane itself, while the practical limit for lifting large-area loads such as precast panels or formwork is much lower, often around 30 to 40 kilometres per hour, because of the sail effect and loss of control. No person may stand or pass beneath a suspended load, and the area beneath the lift path must be barricaded. Tag lines must be used to control the rotation of long or awkward loads. Cranes must be placed on a properly designed hardstand with bearing capacity verified against the outrigger loads."
+  },
+  {
+    "doc_id": "KB-013",
+    "title": "Heat stress at work — hydration, acclimatisation, work-rest cycles",
+    "standard_code": "ISO 7243 (WBGT) / NIOSH",
+    "section": "Heat stress management",
+    "tags": ["heat", "heat stress", "hydration", "WBGT", "summer", "labour", "acclimatisation", "heat stroke", "rest"],
+    "text": "Heat stress is assessed by the wet bulb globe temperature (WBGT) index, which combines air temperature, humidity and radiant heat. NIOSH recommends an alert limit and exposure limit based on metabolic workload: for heavy work such as manual excavation, the recommended limit is reached at considerably lower WBGT than for light work. As a practical guide on site, when the WBGT approaches 26 degrees Celsius for moderate work, a work-rest regimen becomes advisable, and above roughly 28 to 30 degrees Celsius for heavy work it is essential. New workers require an acclimatisation period of about 5 to 7 days with progressive exposure. Early warning signs of heat illness are headache, nausea, dizziness, cramps, confusion and reduced sweating. Heat stroke is a medical emergency and requires immediate cooling and evacuation. Adequate drinking water at about 500 to 800 millilitres per hour for heavy work, shaded rest areas and reduced task pace in the peak heat period are the core controls."
+  },
+  {
+    "doc_id": "KB-014",
+    "title": "Curing of concrete — methods and durations",
+    "standard_code": "IS 456:2000 Cl. 13.5 / IS 456 Cl. 15",
+    "section": "Curing",
+    "tags": ["curing", "concrete", "strength", "moist curing", "membrane", "duration", "durability"],
+    "text": "Curing is the process of maintaining adequate moisture and temperature in concrete for hydration to continue. Curing should commence as soon as the concrete has hardened sufficiently not to be damaged, typically within 12 hours of placement. The curing period should be at least 10 days for ordinary Portland cement concrete and at least 14 days where the concrete contains mineral admixtures such as fly ash or slag, or where the exposure condition is severe. Methods include ponding or immersion, spraying or fogging, wet covering with gunny bags or hessian, and curing compounds where moist curing is impracticable. Rapid drying, especially under wind and sun, causes plastic shrinkage cracks and surface dusting. On large slab areas, the evaporation rate should be limited and the surface sealed against premature drying."
+  },
+  {
+    "doc_id": "KB-015",
+    "title": "Concrete cube testing and acceptance criteria",
+    "standard_code": "IS 456:2000 Cl. 15 / IS 516",
+    "section": "Quality control",
+    "tags": ["concrete", "cube", "testing", "compressive strength", "acceptance", "quality", "QA", "sampling"],
+    "text": "Compressive strength is verified on 150 millimetre concrete cubes cured under standard conditions and tested at 28 days. Samples are taken at a frequency of not less than one set of three cubes per 5 cubic metres of concrete or per batch of each grade. For a valid acceptance decision, the mean strength of the samples must be at least the characteristic strength plus the appropriate margin, and no individual result may fall below the characteristic strength by more than the specified amount. Results should be plotted on a control chart as the pour sequence progresses so that a falling trend can trigger an investigation into batching, aggregate grading or water addition before a failure occurs. Cube results should be read alongside the batching plant records, slump results and placement temperature."
+  },
+  {
+    "doc_id": "KB-016",
+    "title": "Waterproofing of wet areas and ponding test",
+    "standard_code": "IS 3067 / NBC 2016 Part 9",
+    "section": "Waterproofing",
+    "tags": ["waterproofing", "waterproof", "ponding", "terrace", "toilet", "bathroom", "leakage", "membrane"],
+    "text": "Waterproofing in wet areas such as toilets and terraces is applied before finishes begin, with all pipe penetrations, sumps and junction details reinforced using a fillet and reinforcing fabric. The waterproofing should be taken up the wall to a height of at least 300 millimetres, and higher at shower zones. A ponding test must be carried out before the membrane is covered: kerb the area, fill it with water to a minimum depth of about 25 to 50 millimetres, and allow it to stand for 24 to 48 hours, inspecting the ceiling of the floor below for seepage. On terraces, provision must be made for drainage falls of at least 1 in 100 and adequate rainwater outlets, and the membrane should be protected with a screed before finishing."
+  },
+  {
+    "doc_id": "KB-017",
+    "title": "Masonry construction — mortar, bond and movement joints",
+    "standard_code": "IS 1905:1987 / IS 2250",
+    "section": "Masonry",
+    "tags": ["masonry", "brick", "block", "mortar", "bond", "wall", "movement joint", "plaster"],
+    "text": "Masonry should be laid in a proper bond with the mortar joint thickness and consistency suited to the unit type. Cement-sand mortar in the ratio 1:6 is common for general masonry, with the ratio adjusted to 1:4 where higher strength or exposed conditions apply. Units must be wetted or otherwise prepared to prevent them from absorbing the mixing water from the mortar. Vertical joints must be properly filled, not just face-pointed, because poor filling reduces strength and admits water. Movement joints must be incorporated in long walls and at junctions between materials with differing thermal movement, typically at spacing of about 6 to 8 metres for masonry walls. Horizontal bands, such as a plinth band and lintel band, are required to resist cracking in seismic zones."
+  },
+  {
+    "doc_id": "KB-018",
+    "title": "Formwork — design loads, striking times and safety",
+    "standard_code": "IS 14687 / ACI 347",
+    "section": "Formwork",
+    "tags": ["formwork", "shuttering", "striking", "props", "staging", "deshuttering", "props", "safety", "design"],
+    "text": "Formwork must be designed for the dead load of the concrete and reinforcement, the live load of construction personnel and equipment, the lateral pressure of freshly placed concrete, and the impact of placing. A common design allowance for concrete pressure on wall and column formwork is based on a rate of pour and temperature relationship, because lateral pressure depends on how quickly the concrete sets. Striking times depend on the element and must be based on achieved strength rather than elapsed time: vertical faces of columns and walls may be struck when the concrete will not be damaged, typically after 24 to 48 hours, whereas soffits of beams and slabs and the props beneath them must remain until the concrete has reached the specified proportion of its design strength. Back-propping must be considered where loads are transferred from upper floors. All props must be on sound base plates with proper bracing in both directions, and forms should never be struck as a shortcut under schedule pressure."
+  },
+  {
+    "doc_id": "KB-019",
+    "title": "Housekeeping and site access — egress requirements",
+    "standard_code": "OSHA 1926.25 / OSHA 1926.34 / IS 4082",
+    "section": "Site housekeeping and access",
+    "tags": ["housekeeping", "access", "egress", "trip", "debris", "material", "walkway", "storage", "safety"],
+    "text": "Construction materials must be stored so that they do not obstruct passages, stairways or exits. All walking surfaces must be kept reasonably clear of debris, and scrap material and offcuts must be cleared at the end of each shift. Stripping of formwork and protruding nails and rebar must be removed or bent over immediately. An unobstructed width of at least 1.2 metres should be maintained on escape routes and stairways. Every employee must be able to evacuate promptly in an emergency, which means fire extinguishers, first aid points and assembly areas must remain accessible and signed. Accumulations of combustible waste must be removed from the building floor rather than allowed to build up, and no more than one shift of debris should be left in place."
+  },
+  {
+    "doc_id": "KB-020",
+    "title": "Electrical safety on construction sites — temporary supply",
+    "standard_code": "IS 732 / OSHA 1926.402",
+    "section": "Temporary electrical installations",
+    "tags": ["electrical", "temporary", "power", "shock", "earthing", "RCB", "GFCI", "cable", "safety"],
+    "text": "Temporary electrical installations must use proper distribution boards with earth leakage protection, and all exposed metal parts of equipment must be reliably earthed. For construction sites, reduced low voltage of 110 volts centre-tapped to earth is preferred for hand-held tools and site lighting because the touch potential is halved. All cables must be routed overhead or buried and protected, never trailed through wet ground or across access paths where they can be damaged by plant. Junction boxes must be enclosed and waterproof. All temporary installations must be inspected and tested by a competent person before first use and at intervals not exceeding three months, with results recorded. Only qualified electricians may alter or repair the temporary supply."
+  },
+  {
+    "doc_id": "KB-021",
+    "title": "Personal protective equipment — assessment and issue",
+    "standard_code": "OSHA 1926.95 / IS 15298",
+    "section": "PPE management",
+    "tags": ["ppe", "helmet", "boots", "gloves", "eye protection", "noise", "respiratory", "safety", "protection"],
+    "text": "PPE is the last line of defence and must be selected on the basis of a documented risk assessment for each task. On a construction site the baseline issue is a safety helmet, safety footwear with steel toecaps and penetration-resistant soles, high-visibility clothing, and eye protection for cutting, grinding and drilling. Hand protection is task specific: cut-resistant gloves for handling rebar, chemical-resistant gloves for epoxy and admixtures, insulating gloves for electrical work. Respiratory protection is required for silica dust when cutting concrete or stone; wet cutting and local exhaust ventilation should be preferred to relying on the mask alone. Hearing protection is required where noise levels exceed 85 decibels averaged over a shift. PPE must be inspected before use, replaced when damaged, and its use enforced by supervision rather than left to individual discretion."
+  },
+  {
+    "doc_id": "KB-022",
+    "title": "Fire safety — hot work and extinguishers",
+    "standard_code": "OSHA 1926.150 / NBC 2016 Part 4",
+    "section": "Fire prevention",
+    "tags": ["fire", "hot work", "welding", "extinguisher", "permit", "safety", "combustible", "evacuation"],
+    "text": "Hot work including welding, cutting and grinding requires a written permit issued by a responsible person, with combustible material removed at least 10 metres from the work area or protected with fire-resisting blankets. A fire watch must be maintained during the work and for at least 30 minutes after it finishes. Fire extinguishers must be selected by class and located so that travel distance to the nearest extinguisher is not excessive: dry powder extinguishers for general construction areas where multiple fire classes are possible. Escape routes must remain clear and signed, and fire assembly points should be established and communicated during induction. Storage of flammable liquids must be in a dedicated, ventilated, bunded store away from ignition sources."
+  },
+  {
+    "doc_id": "KB-023",
+    "title": "RERA and project registration obligations",
+    "standard_code": "RERA Act 2016",
+    "section": "Regulatory compliance for real estate projects",
+    "tags": ["rera", "regulatory", "registration", "escrow", "possession", "real estate", "compliance", "delay"],
+    "text": "Real estate projects above the area and unit thresholds prescribed by the state rules must be registered with the state Real Estate Regulatory Authority before any advertisement, marketing, booking or sale. Registration requires disclosure of the promoter's track record, the project plan, the approved layout, the timeline for completion and the land title. Seventy per cent of the amounts realised from allottees must be deposited in a separate scheduled bank account and withdrawn only in proportion to the percentage of completion of the project, certified by an engineer, architect and chartered accountant. The promoter is liable to pay interest for every month of delay in handing over possession beyond the date specified in the agreement for sale. Buyers may claim a refund with interest if possession is delayed. Structural defects reported within five years of possession must be rectified by the promoter within 30 days."
+  },
+  {
+    "doc_id": "KB-024",
+    "title": "Construction sequencing — slab cycle and takt planning",
+    "standard_code": "Industry practice / CPM",
+    "section": "Programme and sequencing",
+    "tags": ["schedule", "sequencing", "slab cycle", "takt", "critical path", "programme", "productivity", "formwork"],
+    "text": "The structural slab cycle is normally the pacemaker trade on a multi-storey RCC project. A typical cycle for a conventional slab is three to five floors per month where enough formwork sets are available, with the cycle breakable into reinforcement, formwork, services sleeves, concreting and de-shuttering. To shorten the cycle, the critical resource is not labour alone but the number of formwork sets: with only one set the cycle cannot beat the de-shuttering and curing time. Location-based or takt planning divides the project into zones with a repeatable rhythm, so the same crew moves from zone to zone without waiting. On the programme, keep the structural cycle on the critical path and decouple non-critical finishing trades so they can absorb delay without pushing the handover date."
+  },
+  {
+    "doc_id": "KB-025",
+    "title": "Quality assurance — snagging and handover documentation",
+    "standard_code": "Industry practice / ISO 9001",
+    "section": "Handover",
+    "tags": ["handover", "snag", "quality", "punch list", "occupancy", "documentation", "commissioning", "defects"],
+    "text": "A structured snagging process begins before practical completion: each unit and common area is inspected against a checklist, defects are logged with photographs and location tags, and rectification is tracked to closure with a named owner and due date. Practical completion should not be declared while safety-critical or functional snags remain open. Handover documentation must include as-built drawings, operation and maintenance manuals, warranty certificates, test certificates for all services, and the statutory approvals including the occupancy certificate. A defects liability period, typically twelve months, follows handover with a defined response time. Commissioning of mechanical, electrical and fire systems must be witnessed and recorded, with results compared against the design intent."
+  },
+  {
+    "doc_id": "KB-026",
+    "title": "Valuation basics — built-up, carpet and super built-up areas",
+    "standard_code": "Industry practice / RICS guidance",
+    "section": "Area definitions in valuation",
+    "tags": ["valuation", "area", "super built-up", "carpet", "built up", "loading", "real estate", "pricing"],
+    "text": "Carpet area is the usable floor area within the walls of a unit, excluding the external walls and common areas. Built-up area adds the thickness of the internal and external walls, and typically runs about 10 to 15 per cent above carpet area. Super built-up area further adds the unit's proportionate share of common areas such as lobbies, stairs, lifts and amenities, and the loading can range from about 20 per cent in efficient layouts to over 35 per cent in amenity-heavy projects. Sale rates are usually quoted per square foot of super built-up area or, since the RERA definition, on carpet area, so a comparison between two properties must always confirm the same basis. Valuing on the wrong area basis is one of the most common and most expensive errors in property appraisal."
+  },
+  {
+    "doc_id": "KB-027",
+    "title": "Factors that drive property valuation",
+    "standard_code": "Industry practice / RICS Red Book",
+    "section": "Valuation drivers",
+    "tags": ["valuation", "location", "depreciation", "amenities", "rental yield", "market", "price", "floor", "parking"],
+    "text": "The dominant drivers of residential and commercial value are location and micro-market, followed by the age and condition of the structure, the floor level and view, the quality of finishes, the availability of parking, and the amenity package. Depreciation of the built structure is often modelled between 1 and 2 per cent of construction value per year of effective age, but land value does not depreciate and should be separated where the plot is large. Rental yield, calculated as annual rent divided by capital value, is a useful cross-check: a yield far below the local norm suggests the price is being driven by expected appreciation rather than income. Comparable sales should be adjusted for time, location, area basis and specification before being used as evidence. Under-construction property carries a discount reflecting delivery risk, financing cost and specification uncertainty."
+  },
+  {
+    "doc_id": "KB-028",
+    "title": "Monsoon preparedness checklist for construction sites",
+    "standard_code": "Industry practice / NBC 2016",
+    "section": "Seasonal readiness",
+    "tags": ["monsoon", "rain", "preparedness", "drainage", "dewatering", "slope", "electrical", "seasonal", "excavation"],
+    "text": "Before the monsoon, the site drainage system should be inspected and desilted, with perimeter drains sized for the local intensity-duration curve and pumps and generators tested under load. Excavations should be sloped or shored for the saturated condition, and the spoil heaps should be moved clear of the edges. All temporary electrical installations should be re-tested with earth leakage protection, and distribution boards should be raised above expected flood level. Material stockpiles should be on dunnage with tarpaulins and adequate anchorage against wind. Scaffolding ties and sheeted faces must be checked for wind loading, and loose sheets should be removed. Cement stores must be raised and weather-tight. During the monsoon, reschedule external works and concreting, keep the pour calendar flexible, and conduct post-rain inspections of slopes, shoring and the structural frame before crews return."
+  },
+  {
+    "doc_id": "KB-029",
+    "title": "Working at height — ladders, edge protection and openings",
+    "standard_code": "OSHA 1926.1053 / IS 3696",
+    "section": "Work at height",
+    "tags": ["height", "ladder", "opening", "edge protection", "cover", "safety", "fall", "scaffold", "guardrail"],
+    "text": "Ladders must be used only as a means of access, not as a working platform for prolonged tasks; for work at height a scaffold, elevated platform or mobile tower is required. A portable ladder must be set at approximately a 1-in-4 angle, extend at least one metre above the landing, and be secured against displacement at both top and bottom. Floor openings and voids must be covered with a secured cover capable of carrying twice the intended load, marked and colour-coded, or guarded with a standard guardrail and toe board. Skylights and fragile roof surfaces require a dedicated platform or crawling board. Edge protection must be installed before work begins at any open edge and must not be removed by later trades without an equivalent control being put in its place. Rescue arrangements for anyone suspended in a harness must be planned before work starts."
+  },
+  {
+    "doc_id": "KB-030",
+    "title": "Concrete surface defects — honeycombing, segregation and efflorescence",
+    "standard_code": "IS 456:2000 / ACI 309R",
+    "section": "Surface defects",
+    "tags": ["concrete", "honeycomb", "segregation", "efflorescence", "defect", "surface", "bugholes", "finish"],
+    "text": "Honeycombing is the presence of voids in the concrete where mortar has failed to fill the space between coarse aggregate particles, usually caused by insufficient vibration, congestion of reinforcement, or a mix that is too stiff. Shallow honeycombing up to the cover depth can be repaired by chipping back to sound concrete and filling with a structural repair mortar; honeycombing that exposes reinforcement requires the area to be cut back until sound concrete is reached and the repair designed. Segregation is the separation of the coarse aggregate from the mortar, caused by excessive free fall during placement, over-vibration, or a mix that is too wet; the affected concrete should be removed. Efflorescence is a white crystalline deposit of salts that have migrated to the surface with moisture; it is cosmetic but indicates ongoing water movement, so the source of moisture must be traced rather than the deposit simply being brushed away."
+  }
+]

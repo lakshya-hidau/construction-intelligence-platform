@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ base ------ */
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 font-sans text-slate-900 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  /* Simple View raises the base reading size a notch and relaxes tracking, because its
+     audience is reading prose rather than scanning dense data tables. */
+  html[data-view-mode='simple'] {
+    font-size: 16px;
+  }
+  html[data-view-mode='expert'] {
+    font-size: 15.5px;
+  }
+
+  /* Industrial scrollbars — visible but unobtrusive. */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+  }
+
+  /* Keyboard focus is always visible; mouse focus is not. */
+  :focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: #bfdbfe;
+    color: #0f172a;
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* --------------------------------------------------------------- components -- */
+
+@layer components {
+  .panel-divider {
+    @apply border-t border-slate-200;
+  }
+
+  /* Generous vertical rhythm for the wizard screens. */
+  .stack-simple > * + * {
+    @apply mt-4;
+  }
+
+  .mono-label {
+    @apply font-mono text-[10px] uppercase tracking-wider text-slate-400;
+  }
+
+  .data-table th {
+    @apply border-b border-slate-200 py-1.5 pr-3 text-left text-[9.5px] font-semibold uppercase tracking-wider text-slate-400;
+  }
+  .data-table td {
+    @apply border-b border-slate-50 py-2 pr-3 align-top text-[12px] text-slate-700;
+  }
+}
+
+/* ------------------------------------------------------------------ print ---- */
+
+@media print {
+  aside,
+  header,
+  footer {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  body {
+    background: #fff !important;
+  }
+}

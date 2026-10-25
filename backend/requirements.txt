@@ -1,0 +1,13 @@
+# ---- Core API ------------------------------------------------------------------------
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+
+# ---- Imaging & numerics (offline vision heuristics) ----------------------------------
+pillow==11.1.0
+numpy==2.2.1
+
+# ---- Outbound HTTP (LLM providers + Open-Meteo weather) ------------------------------
+httpx==0.28.1

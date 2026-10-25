@@ -51,8 +51,9 @@ make install && make dev
 docker compose up --build
 ```
 
-The Docker image builds the frontend and serves it alongside the API from one FastAPI process.
-It runs as a non-root user. Open `http://localhost:8000` to use the app.
+The root-level `Dockerfile` builds the frontend and serves it alongside the API from one FastAPI
+process. It runs as a non-root user and listens on the `PORT` environment variable (default
+`10000`). Open `http://localhost:8000` to use the app.
 
 ### Configure Gemini securely
 
@@ -69,7 +70,8 @@ Generative Language API and suitable usage quotas in Google AI Studio / Google C
 
 ### Before public deployment
 
-Use the Dockerfile as the deployment artifact and configure the host with:
+Use the root-level `Dockerfile` with the repository root as the Docker build context. Configure
+the host with:
 
 * `ENVIRONMENT=production` and `DEBUG=false`.
 * `GEMINI_API_KEY` as a host-managed secret and `AI_PROVIDER=gemini` (or `auto`).

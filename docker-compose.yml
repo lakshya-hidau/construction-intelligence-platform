@@ -2,11 +2,12 @@ services:
   api:
     build:
       context: .
-      dockerfile: backend/Dockerfile
+      dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "8000:10000"
     environment:
       ENVIRONMENT: production
+      PORT: "10000"
       AI_PROVIDER: ${AI_PROVIDER:-auto}
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}

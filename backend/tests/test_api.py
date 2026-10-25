@@ -31,6 +31,7 @@ from models.schemas import (
     WeatherAdvisoryResponse,
 )
 from services.knowledge import retrieve
+from services.llm import MultimodalClient
 
 client = TestClient(main.app)
 
@@ -79,6 +80,45 @@ def _jpeg(img: Image.Image) -> bytes:
 
 def _upload(raw: bytes, name: str = "x.jpg", mime: str = "image/jpeg"):
     return {"image": (name, raw, mime)}
+
+
+class TestGeminiClient:
+    def test_api_key_is_sent_in_header_not_url(self, monkeypatch):
+        import services.llm as llm_module
+
+        api_key = "test-gemini-key"
+        monkeypatch.setattr(llm_module.settings, "gemini_api_key", api_key)
+        captured: dict[str, object] = {}
+
+        class Response:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"candidates": [{"content": {"parts": [{"text": "ok"}]}}]}
+
+        class Client:
+            def __init__(self, timeout):
+                pass
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc_value, traceback):
+                pass
+
+            def post(self, url, *, headers, json):
+                captured.update(url=url, headers=headers, json=json)
+                return Response()
+
+        monkeypatch.setattr(llm_module.httpx, "Client", Client)
+
+        result = MultimodalClient()._gemini("system", "prompt", [], 0.1, 100, True)
+
+        assert result == "ok"
+        assert "?" not in captured["url"]
+        assert api_key not in captured["url"]
+        assert captured["headers"]["x-goog-api-key"] == api_key
 
 
 # --------------------------------------------------------------------------------------

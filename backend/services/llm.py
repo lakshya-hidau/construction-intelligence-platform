@@ -301,12 +301,15 @@ class MultimodalClient:
             generation_config["responseMimeType"] = "application/json"
         url = (
             f"https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{self.model}:generateContent?key={settings.gemini_api_key}"
+            f"{self.model}:generateContent"
         )
         with httpx.Client(timeout=self.timeout) as client:
             resp = client.post(
                 url,
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Content-Type": "application/json",
+                    "x-goog-api-key": settings.gemini_api_key or "",
+                },
                 json={"contents": [{"role": "user", "parts": parts}], "generationConfig": generation_config},
             )
             resp.raise_for_status()

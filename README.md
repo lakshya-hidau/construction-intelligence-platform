@@ -48,12 +48,38 @@ make install && make dev
 **Production build (single origin):**
 
 ```bash
-cd frontend && npm run build     # emits frontend/dist
-cd ../backend && uvicorn main:app --host 0.0.0.0 --port 8000
+docker compose up --build
 ```
 
-`main.py` detects `frontend/dist` and serves the SPA with an index fallback, so one process
-serves both the API and the UI.
+The Docker image builds the frontend and serves it alongside the API from one FastAPI process.
+It runs as a non-root user. Open `http://localhost:8000` to use the app.
+
+### Configure Gemini securely
+
+The backend reads `GEMINI_API_KEY` from its environment; the key is never needed in frontend
+code. For local Docker use, copy `backend/.env.example` to an untracked `.env` in the project
+root, set `GEMINI_API_KEY` in that file, and start the stack with `docker compose up --build`.
+For a hosting provider, add `GEMINI_API_KEY` using its encrypted environment-variable or secret
+manager UI. Do not commit keys, put them in `VITE_*` variables, or paste them into source files.
+
+Set `AI_PROVIDER=gemini` to require Gemini, or leave it as `auto` to select the first configured
+provider and fall back to the built-in heuristic engine. Revoke any key that has been shared in
+chat, screenshots, source control, or logs; create a replacement and restrict it to the required
+Generative Language API and suitable usage quotas in Google AI Studio / Google Cloud.
+
+### Before public deployment
+
+Use the Dockerfile as the deployment artifact and configure the host with:
+
+* `ENVIRONMENT=production` and `DEBUG=false`.
+* `GEMINI_API_KEY` as a host-managed secret and `AI_PROVIDER=gemini` (or `auto`).
+* `CORS_ORIGINS` set to the exact trusted frontend origins. For the bundled, same-origin UI,
+  this can be empty; do not allow arbitrary origins when serving a separate frontend.
+* An HTTPS-enabled host, a billing/usage limit for the Gemini project, and monitoring for
+  `/health` and provider failures.
+
+The sample `.env` files are for local development only. The repository does not contain
+production credentials.
 
 ---
 
